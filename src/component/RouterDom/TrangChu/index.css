@@ -1,0 +1,60 @@
+
+
+  
+  .allChat .tablMainContent{
+    position: absolute;
+    width: 487px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .allChat .chatContent{
+
+    max-width: 100%;
+
+    
+  
+    padding-left: 487px;
+   
+  }
+  .presspreveriose{
+    display: none;
+  }
+
+  @media screen and (max-width:768px){
+      .tablMainContent.hid{
+    display: none;
+  }
+  .tablMainContent.show{
+    display: flex;
+  }
+  .presspreveriose{
+    display: flex;
+  }
+    .allChat .chatContent{
+    
+      padding-left: 0px;
+      display: none;
+    }
+
+    .allChat .chatContent.show{
+      display: flex;
+      background-color: red;
+    }
+    .allChat .tablMainContent{
+
+      width: 100%;
+    }
+    .chatContent.shows{
+      display: flex;
+
+    }
+    
+  }
+  @media screen and(min-width:768px) {
+    .tablMainContent.hid{
+      display: flex;
+    }
+  
+    
+  }
